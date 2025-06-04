@@ -17,6 +17,10 @@ plugins {
   id("org.asciidoctor.jvm.convert") version "4.0.4" // https://plugins.gradle.org/plugin/org.asciidoctor.jvm.convert
 }
 
+lombok {
+  version.set("1.18.38")
+}
+
 repositories {
   mavenCentral()
 }
@@ -26,7 +30,6 @@ dependencies {
   implementation("org.springframework.boot:spring-boot-starter-quartz")
   implementation("org.springframework.boot:spring-boot-starter-security")
   implementation("org.springframework.boot:spring-boot-starter-validation")
-  implementation("com.vaadin:vaadin-spring-boot-starter")
   implementation("org.semver4j:semver4j:${semver4jVersion}")
   compileOnly("org.projectlombok:lombok")
   developmentOnly("org.springframework.boot:spring-boot-devtools")
