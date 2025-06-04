@@ -36,3 +36,7 @@ out/
 
 ### VS Code ###
 .vscode/
+
+### Obsidian ###
+/docs/notes/.obsidian/
+/docs/notes/.trash/
