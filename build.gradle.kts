@@ -11,10 +11,10 @@ plugins {
   id("jacoco")
   id("checkstyle")
   id("io.freefair.lombok") version "8.13.1" // https://plugins.gradle.org/plugin/io.freefair.lombok
-  id("org.springframework.boot") version "3.5.0"
-  id("io.spring.dependency-management") version "1.1.7"
-  id("org.cyclonedx.bom") version "2.3.0"
-  id("org.asciidoctor.jvm.convert") version "3.3.2"
+  id("org.springframework.boot") version "3.5.0" // https://plugins.gradle.org/plugin/org.springframework.boot
+  id("io.spring.dependency-management") version "1.1.7" // https://plugins.gradle.org/plugin/io.spring.dependency-management
+  id("org.cyclonedx.bom") version "2.3.1" // https://plugins.gradle.org/plugin/org.cyclonedx.bom
+  id("org.asciidoctor.jvm.convert") version "4.0.4" // https://plugins.gradle.org/plugin/org.asciidoctor.jvm.convert
 }
 
 repositories {
